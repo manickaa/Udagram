@@ -69,13 +69,13 @@ spec:
               name: env-config
               key: POSTGRES_HOST
         - name: POSTGRES_PASSWORD
-          #value: manickaa
+          #value: ****
           valueFrom:
             secretKeyRef:
               name: env-secret
               key: POSTGRES_PASSWORD
         - name: POSTGRES_USERNAME
-          #value: manickaa
+          #value: ****
           valueFrom:
             secretKeyRef:
               name: env-secret
