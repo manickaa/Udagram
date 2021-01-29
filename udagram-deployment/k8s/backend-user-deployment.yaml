@@ -2,17 +2,17 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: backend-user
+    service: backend-user
   name: backend-user
 spec:
   selector:
     matchLabels:
-      app: backend-user
+      service: backend-user
   replicas: 2
   template:
     metadata:
       labels:
-        app: backend-user
+        service: backend-user
     spec:
       containers:
       - image: manickaa/backend-api-user
