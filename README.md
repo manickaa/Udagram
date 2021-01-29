@@ -74,3 +74,5 @@ Create an AWS S3 bucket. Set the config values for environment variables prefixe
     npm audit fix
     ```
 5. In `set_env.sh`, environment variables are set with `export $VAR=value`. Setting it this way is not permanent; every time you open a new terminal, you will have to run `set_env.sh` to reconfigure your environment variables. To verify if your environment variable is set, you can check the variable with a command like `echo $POSTGRES_USERNAME`.
+
+Access URL for the Udagram deployment in AWS EKS cluster - http://a8d60e47e01414dbda275e8a7c462a6f-1716366982.us-east-1.elb.amazonaws.com:8100
